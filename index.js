@@ -75,8 +75,17 @@ document.write("<p>Idade: " + idade + " anos</p>");
 document.write("<p>Curso: " + curso + "</p>");
 document.write("<p>Ano: " + ano + "º</p>");
 */
-
+/*
 let frase = "O LUGAR VIRA TECNOLOGIA";
 let novaFrase = frase.replace("LUGAR", "MUNDO");
 
 document.write(novaFrase);
+*/
+
+let stringNumero = "384.5668"; // declarando a variável como string
+let floatNumero = parseFloat(stringNumero); // convertendo a string para float
+let parteDecimal = floatNumero.toString().split(".")[1]; // separando a parte decimal e pegando apenas os dois algarismos
+let resultado = parteDecimal.substr(0, 2); // pegando apenas os dois primeiros algarismos da parte decimal
+
+document.write(resultado); // imprimindo o resultado no console
+
