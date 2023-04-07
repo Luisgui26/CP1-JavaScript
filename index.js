@@ -24,7 +24,7 @@ if (imc < 18.5) {
   alert("Seu IMC é " + imc.toFixed(2) + ", você está acima do peso ideal.");
 }
 */
-
+/*
 let idade = parseInt(prompt("Digite a sua idade:"));
 
 if (idade <= 12) {
@@ -36,5 +36,14 @@ if (idade <= 12) {
 } else {
   console.log("Você tem " + idade + " anos e é um idoso.");
 }
+*/
+
+let nome = prompt("Digite o nome de usuário:");
+let senha = prompt("Digite a senha:");
 
 
+if (nome === "admin" && senha === "1234") {
+  document.write("Login realizado com sucesso!");
+} else {
+  document.write("Falha de autenticação. Nome de usuário ou senha incorretos.");
+}
