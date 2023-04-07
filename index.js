@@ -48,7 +48,7 @@ if (nome === "admin" && senha === "1234") {
   document.write("Falha de autenticação. Nome de usuário ou senha incorretos.");
 }
 */
-
+/*
 let notas = [];
 
 for (let i = 1; i <= 7; i++) {
@@ -63,5 +63,14 @@ if (media >= 6) {
 } else {
   document.write(`Infelizmente sua média foi ${media.toFixed(2)} e você foi reprovado.`);
 }
+*/
 
+let nome = prompt("Qual é o seu nome?");
+let idade = parseInt(prompt("Quantos anos você tem?"));
+let curso = prompt("Qual é o seu curso?");
+let ano = parseInt(prompt("Em que ano você está?"));
 
+document.write("<p>Nome: " + nome + "</p>");
+document.write("<p>Idade: " + idade + " anos</p>");
+document.write("<p>Curso: " + curso + "</p>");
+document.write("<p>Ano: " + ano + "º</p>");
