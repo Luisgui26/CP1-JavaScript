@@ -64,7 +64,7 @@ if (media >= 6) {
   document.write(`Infelizmente sua média foi ${media.toFixed(2)} e você foi reprovado.`);
 }
 */
-
+/*
 let nome = prompt("Qual é o seu nome?");
 let idade = parseInt(prompt("Quantos anos você tem?"));
 let curso = prompt("Qual é o seu curso?");
@@ -74,3 +74,9 @@ document.write("<p>Nome: " + nome + "</p>");
 document.write("<p>Idade: " + idade + " anos</p>");
 document.write("<p>Curso: " + curso + "</p>");
 document.write("<p>Ano: " + ano + "º</p>");
+*/
+
+let frase = "O LUGAR VIRA TECNOLOGIA";
+let novaFrase = frase.replace("LUGAR", "MUNDO");
+
+document.write(novaFrase);
