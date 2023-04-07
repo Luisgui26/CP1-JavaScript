@@ -37,7 +37,7 @@ if (idade <= 12) {
   console.log("Você tem " + idade + " anos e é um idoso.");
 }
 */
-
+/*
 let nome = prompt("Digite o nome de usuário:");
 let senha = prompt("Digite a senha:");
 
@@ -47,3 +47,21 @@ if (nome === "admin" && senha === "1234") {
 } else {
   document.write("Falha de autenticação. Nome de usuário ou senha incorretos.");
 }
+*/
+
+let notas = [];
+
+for (let i = 1; i <= 7; i++) {
+  let nota = parseFloat(prompt("Digite a nota " + i + ":"));
+  notas.push(nota);
+}
+
+let media = notas.reduce((total, nota) => total + nota) / notas.length;
+
+if (media >= 6) {
+  document.write(`Parabéns, sua média foi ${media.toFixed(2)} e você foi aprovado!`);
+} else {
+  document.write(`Infelizmente sua média foi ${media.toFixed(2)} e você foi reprovado.`);
+}
+
+
